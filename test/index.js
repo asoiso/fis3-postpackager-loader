@@ -29,7 +29,7 @@ function release(opts, cb) {
   });
 }
 
-describe('fis3-postpackager-loader ', function() {
+describe('fis3-postpackager-loader-sync ', function() {
   var root = path.join(__dirname, 'source');
   fis.project.setProjectRoot(root);
   beforeEach(function() {
